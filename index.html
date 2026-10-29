@@ -1,0 +1,320 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Project Roadmap &amp; Update</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="index.css">
+<div class="bg" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"><i id="progress"></i></div>
+
+<main class="deck" id="deck">
+
+  <!-- Halaman 1: judul + proyek selesai -->
+  <section class="slide is-active" data-title="Judul dan proyek selesai" aria-label="Halaman 1: judul dan proyek selesai">
+    <div class="wrap">
+      <header class="head">
+        <div>
+          <p class="eyebrow" data-a style="--i:0">Meeting Performance · Next Plan 2027</p>
+          <h1 class="mega">
+            <span class="line"><span style="--i:1">Project Roadmap</span></span>
+            <span class="line"><span style="--i:2"><em>&amp;</em> Update</span></span>
+          </h1>
+          <p class="byline" data-a style="--i:4">Dibuat oleh <strong>Mohammad Rafi Abdillah</strong> · 29 Oktober 2026</p>
+        </div>
+        <div class="summary" data-a style="--i:3">
+          <p class="summary-label">4 proyek · 3 status</p>
+          <div class="tally" role="img" aria-label="Proporsi status proyek: 2 selesai, 1 sedang berjalan, 1 tertunda">
+            <div class="seg st-done" style="flex: 2; --i:0"><span>Selesai</span><b data-count="2">2</b></div>
+            <div class="seg st-prog" style="flex: 1; --i:1"><span>Berjalan</span><b data-count="1">1</b></div>
+            <div class="seg st-hold" style="flex: 1; --i:2"><span>Tertunda</span><b data-count="1">1</b></div>
+          </div>
+          <ul class="legend">
+            <li class="st-done"><i></i>Selesai</li>
+            <li class="st-prog"><i></i>Sedang berjalan</li>
+            <li class="st-hold"><i></i>Tertunda</li>
+          </ul>
+        </div>
+      </header>
+
+      <h2 class="sec st-done" data-a style="--i:5">Proyek selesai</h2>
+
+      <div class="cards">
+        <article class="card st-done" data-a style="--i:6">
+          <div class="card-h">
+            <div><p class="kicker">Project</p><h3>Hybrid Simulator</h3></div>
+            <p class="pill"><span class="dot"></span>Selesai</p>
+          </div>
+          <figure class="mini">
+            <svg viewBox="0 0 460 120" role="img" aria-label="Ilustrasi aliran tenaga hybrid: mesin bensin dan baterai menggerakkan roda">
+              <path id="hp1" class="wire" d="M126 28 H390 V32"/>
+              <path id="hp2" class="wire" d="M126 92 H170"/>
+              <path id="hp3" class="wire" d="M280 92 H390 V88"/>
+              <g class="node"><rect x="16" y="8" width="110" height="40"/></g>
+              <text class="t" x="71" y="33" text-anchor="middle">Mesin bensin</text>
+              <g class="node"><rect x="16" y="72" width="110" height="40"/></g>
+              <text class="t" x="71" y="97" text-anchor="middle">Baterai</text>
+              <g class="node"><rect x="170" y="72" width="110" height="40"/></g>
+              <text class="t" x="225" y="97" text-anchor="middle">Motor listrik</text>
+              <circle class="node-c" cx="390" cy="60" r="28"/>
+              <text class="t" x="390" y="65" text-anchor="middle">Roda</text>
+              <circle class="dot-r anim" r="4"><animateMotion dur="2.6s" repeatCount="indefinite"><mpath href="#hp1"/></animateMotion></circle>
+              <circle class="dot-r anim" r="4"><animateMotion dur="2.6s" begin="-1.3s" repeatCount="indefinite"><mpath href="#hp1"/></animateMotion></circle>
+              <circle class="dot-r anim" r="4"><animateMotion dur="1s" repeatCount="indefinite"><mpath href="#hp2"/></animateMotion></circle>
+              <circle class="dot-r anim" r="4"><animateMotion dur="1.8s" repeatCount="indefinite"><mpath href="#hp3"/></animateMotion></circle>
+              <circle class="dot-r anim" r="4"><animateMotion dur="1.8s" begin="-.9s" repeatCount="indefinite"><mpath href="#hp3"/></animateMotion></circle>
+            </svg>
+            <figcaption>Ilustrasi aliran tenaga, bukan tampilan aplikasi</figcaption>
+          </figure>
+          <p class="desc">Dirancang untuk mengedukasi pelanggan tentang cara kerja mesin hybrid pada kendaraan.</p>
+          <ul class="feats">
+            <li><i></i><span>Visualisasi 3D interaktif</span></li>
+            <li><i></i><span>Simulasi operasional yang lengkap</span></li>
+            <li><i></i><span>Telemetri langsung &amp; edukasi</span></li>
+          </ul>
+          <a class="btn push" href="https://hybrid.tagtoyota.co.id" target="_blank" rel="noopener">hybrid.tagtoyota.co.id
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a>
+        </article>
+
+        <article class="card st-done" data-a style="--i:7">
+          <div class="card-h">
+            <div><p class="kicker">Project</p><h3>GR Merch</h3></div>
+            <p class="pill"><span class="dot"></span>Selesai</p>
+          </div>
+          <figure class="mini">
+            <svg viewBox="0 0 460 120" role="img" aria-label="Ilustrasi barang masuk ke tiga cabang lalu keluar">
+              <path id="gi1" class="wire" d="M106 60 C136 60 136 19 170 19"/>
+              <path id="gi2" class="wire" d="M106 60 H170"/>
+              <path id="gi3" class="wire" d="M106 60 C136 60 136 101 170 101"/>
+              <path id="go1" class="wire" d="M290 19 C324 19 324 60 364 60"/>
+              <path id="go2" class="wire" d="M290 60 H364"/>
+              <path id="go3" class="wire" d="M290 101 C324 101 324 60 364 60"/>
+              <g class="node"><rect x="16" y="30" width="90" height="60"/></g>
+              <text class="t" x="61" y="64" text-anchor="middle">Masuk</text>
+              <g class="node"><rect x="170" y="4" width="120" height="30"/></g>
+              <text class="t" x="230" y="24" text-anchor="middle">Cabang A</text>
+              <g class="node"><rect x="170" y="45" width="120" height="30"/></g>
+              <text class="t" x="230" y="65" text-anchor="middle">Cabang B</text>
+              <g class="node"><rect x="170" y="86" width="120" height="30"/></g>
+              <text class="t" x="230" y="106" text-anchor="middle">Cabang C</text>
+              <g class="node"><rect x="364" y="30" width="90" height="60"/></g>
+              <text class="t" x="409" y="64" text-anchor="middle">Keluar</text>
+              <g class="anim"><rect class="crate" x="-4" y="-4" width="8" height="8"><animateMotion dur="2.4s" repeatCount="indefinite"><mpath href="#gi1"/></animateMotion></rect></g>
+              <g class="anim"><rect class="crate" x="-4" y="-4" width="8" height="8"><animateMotion dur="2.4s" begin="-.8s" repeatCount="indefinite"><mpath href="#gi2"/></animateMotion></rect></g>
+              <g class="anim"><rect class="crate" x="-4" y="-4" width="8" height="8"><animateMotion dur="2.4s" begin="-1.6s" repeatCount="indefinite"><mpath href="#gi3"/></animateMotion></rect></g>
+              <g class="anim"><rect class="crate" x="-4" y="-4" width="8" height="8"><animateMotion dur="2.4s" begin="-.4s" repeatCount="indefinite"><mpath href="#go1"/></animateMotion></rect></g>
+              <g class="anim"><rect class="crate" x="-4" y="-4" width="8" height="8"><animateMotion dur="2.4s" begin="-1.2s" repeatCount="indefinite"><mpath href="#go2"/></animateMotion></rect></g>
+              <g class="anim"><rect class="crate" x="-4" y="-4" width="8" height="8"><animateMotion dur="2.4s" begin="-2s" repeatCount="indefinite"><mpath href="#go3"/></animateMotion></rect></g>
+            </svg>
+            <figcaption>Ilustrasi alur stok, bukan data sebenarnya</figcaption>
+          </figure>
+          <p class="desc">Alat untuk membantu melacak persediaan dan penjualan merchandise GR.</p>
+          <ul class="feats">
+            <li><i></i><span>Melacak persediaan masuk dan keluar</span></li>
+            <li><i></i><span>Mempermudah pemantauan level stok untuk setiap cabang</span></li>
+            <li><i></i><span>Memantau barang yang paling laris atau paling sering dikirim keluar di setiap cabang</span></li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Halaman 2: sedang berjalan + tertunda -->
+  <section class="slide" data-title="Proyek berjalan dan tertunda" aria-label="Halaman 2: proyek sedang berjalan dan tertunda" aria-hidden="true">
+    <div class="wrap">
+      <header>
+        <p class="eyebrow" data-a style="--i:0">Project Roadmap &amp; Update</p>
+        <h2 class="title2" data-a style="--i:1">Berjalan <em>&amp;</em> Tertunda</h2>
+      </header>
+
+      <div class="cards">
+        <article class="card st-prog" data-a style="--i:2">
+          <div class="card-h">
+            <div><p class="kicker">Project</p><h3>Internal Memo (IM)</h3></div>
+            <p class="pill live"><span class="dot"></span>Sedang berjalan</p>
+          </div>
+          <figure class="mini">
+            <svg viewBox="0 0 460 120" role="img" aria-label="Ilustrasi alur memo: dibuat, menunggu persetujuan, disetujui">
+              <path id="mp" class="wire" d="M70 38 H390"/>
+              <circle class="n-ring" cx="70" cy="38" r="22"/>
+              <path class="glyph" d="M60 31h20M60 38h20M60 45h12"/>
+              <circle class="n-ring n-on" cx="230" cy="38" r="22"/>
+              <circle class="pulse-ring" cx="230" cy="38" r="22"/>
+              <circle class="glyph" cx="230" cy="38" r="9"/>
+              <path class="glyph" d="M230 32v6l4 3"/>
+              <circle class="n-ring n-ok" cx="390" cy="38" r="22"/>
+              <path class="glyph ok" d="M380 39l7 7 13-14"/>
+              <text class="t" x="70" y="85" text-anchor="middle">Memo dibuat</text>
+              <text class="t" x="230" y="85" text-anchor="middle">Persetujuan</text>
+              <text class="t" x="390" y="85" text-anchor="middle">Disetujui</text>
+              <g class="anim">
+                <g>
+                  <rect class="memo-sheet" x="-7" y="-9" width="14" height="18" rx="1"/>
+                  <path class="memo-line" d="M-3 -4h6M-3 0h6M-3 4h4"/>
+                  <animateMotion dur="3.6s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1" calcMode="linear"><mpath href="#mp"/></animateMotion>
+                </g>
+              </g>
+            </svg>
+            <figcaption>Ilustrasi tujuan proyek, bukan tampilan aplikasi</figcaption>
+          </figure>
+          <p class="desc">Mempermudah pembuatan memo internal terkait persetujuan (approval) dan mengurangi penggunaan kertas.</p>
+          <ul class="feats">
+            <li><i></i><span>Saat ini berada di tahap pengembangan</span></li>
+            <li><i></i><span>Fitur-fiturnya akan dibahas lebih detail nanti</span></li>
+          </ul>
+        </article>
+
+        <article class="card st-hold" data-a style="--i:3">
+          <div class="card-h">
+            <div><p class="kicker">Project</p><h3>Regional Policy</h3></div>
+            <p class="pill"><span class="dot"></span>Tertunda</p>
+          </div>
+          <ol class="htl">
+            <li style="--i:3"><span class="nd"></span><div><h4>Direncanakan</h4><p>Pada rapat sebelumnya</p></div></li>
+            <li style="--i:4"><span class="nd"></span><div><h4>Dibahas</h4><p>Bersama database administrator</p></div></li>
+            <li class="last" style="--i:5"><span class="nd"></span><div><h4>Ditunda sementara</h4><p>Prioritas ke target saat itu</p></div></li>
+          </ol>
+          <p class="desc">Direncanakan pada rapat sebelumnya dan sudah dibahas dengan database administrator. Pengerjaannya ditunda sementara karena harus memenuhi target yang dibutuhkan saat itu.</p>
+        </article>
+      </div>
+
+      <div class="next" data-a style="--i:5">
+        <h3>Untuk dibahas</h3>
+        <ul>
+          <li><i></i><span>Detail fitur Internal Memo (IM)</span></li>
+          <li><i></i><span>Kelanjutan Regional Policy</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<nav class="bar" aria-label="Navigasi halaman">
+  <span class="brand">Project Roadmap &amp; Update</span>
+  <div class="dots" id="dots"></div>
+  <div class="ctrl">
+    <span class="count-t" id="count">01 / 02</span>
+    <button class="nav-btn" id="prev" type="button" aria-label="Halaman sebelumnya">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+    </button>
+    <button class="nav-btn" id="next" type="button" aria-label="Halaman berikutnya">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+    </button>
+  </div>
+</nav>
+
+<script>
+(function () {
+  var slides = Array.prototype.slice.call(document.querySelectorAll('.slide'));
+  var n = slides.length;
+  var cur = 0;
+  var dotsEl = document.getElementById('dots');
+  var countEl = document.getElementById('count');
+  var progEl = document.getElementById('progress');
+  var prevBtn = document.getElementById('prev');
+  var nextBtn = document.getElementById('next');
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  if (reduce) {
+    Array.prototype.forEach.call(document.querySelectorAll('svg'), function (s) {
+      try { s.pauseAnimations(); } catch (e) {}
+    });
+    Array.prototype.forEach.call(document.querySelectorAll('.anim'), function (el) { el.style.display = 'none'; });
+  }
+
+  var dotBtns = slides.map(function (s, i) {
+    var b = document.createElement('button');
+    b.type = 'button';
+    b.setAttribute('aria-label', 'Halaman ' + (i + 1) + ': ' + s.getAttribute('data-title'));
+    b.addEventListener('click', function () { go(i); });
+    dotsEl.appendChild(b);
+    return b;
+  });
+
+  function pad(x) { return (x < 10 ? '0' : '') + x; }
+
+  function runCounters() {
+    Array.prototype.forEach.call(document.querySelectorAll('[data-count]'), function (el) {
+      var target = parseInt(el.getAttribute('data-count'), 10);
+      if (reduce) { el.textContent = target; return; }
+      var start = null;
+      el.textContent = 0;
+      function step(ts) {
+        if (start === null) start = ts;
+        var p = Math.min(1, (ts - start) / 900);
+        el.textContent = Math.round(target * (1 - Math.pow(1 - p, 3)));
+        if (p < 1) requestAnimationFrame(step); else el.textContent = target;
+      }
+      requestAnimationFrame(step);
+    });
+  }
+
+  function render(i) {
+    cur = i;
+    slides.forEach(function (s, k) {
+      var on = k === i;
+      s.classList.toggle('is-active', on);
+      s.setAttribute('aria-hidden', on ? 'false' : 'true');
+    });
+    dotBtns.forEach(function (b, k) {
+      if (k === i) b.setAttribute('aria-current', 'true'); else b.removeAttribute('aria-current');
+    });
+    countEl.textContent = pad(i + 1) + ' / ' + pad(n);
+    progEl.style.setProperty('--p', ((i + 1) / n).toFixed(4));
+    prevBtn.disabled = i === 0;
+    nextBtn.disabled = i === n - 1;
+    slides[i].scrollTop = 0;
+    if (i === 0) runCounters();
+  }
+
+  function go(i) {
+    i = Math.max(0, Math.min(n - 1, i));
+    render(i);
+    var h = '#slide-' + (i + 1);
+    try { if (location.hash !== h) location.hash = h; } catch (e) {}
+  }
+
+  function fromHash() {
+    var m = /^#slide-(\d+)$/.exec(location.hash || '');
+    if (m) {
+      var i = parseInt(m[1], 10) - 1;
+      if (i >= 0 && i < n) return i;
+    }
+    return 0;
+  }
+
+  window.addEventListener('hashchange', function () {
+    var i = fromHash();
+    if (i !== cur) render(i);
+  });
+
+  prevBtn.addEventListener('click', function () { go(cur - 1); });
+  nextBtn.addEventListener('click', function () { go(cur + 1); });
+
+  document.addEventListener('keydown', function (e) {
+    if (e.altKey || e.ctrlKey || e.metaKey) return;
+    var tag = (e.target && e.target.tagName) || '';
+    var k = e.key;
+    if (k === 'ArrowRight' || k === 'PageDown') { e.preventDefault(); go(cur + 1); }
+    else if (k === 'ArrowLeft' || k === 'PageUp') { e.preventDefault(); go(cur - 1); }
+    else if (k === 'Home') { e.preventDefault(); go(0); }
+    else if (k === 'End') { e.preventDefault(); go(n - 1); }
+    else if (k === ' ' && tag !== 'BUTTON' && tag !== 'A') { e.preventDefault(); go(cur + (e.shiftKey ? -1 : 1)); }
+  });
+
+  var tx = 0, ty = 0;
+  document.addEventListener('touchstart', function (e) {
+    var t = e.changedTouches[0]; tx = t.clientX; ty = t.clientY;
+  }, { passive: true });
+  document.addEventListener('touchend', function (e) {
+    var t = e.changedTouches[0];
+    var dx = t.clientX - tx, dy = t.clientY - ty;
+    if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.6) go(cur + (dx < 0 ? 1 : -1));
+  }, { passive: true });
+
+  render(fromHash());
+})();
+</script>
+
+</body></html>
